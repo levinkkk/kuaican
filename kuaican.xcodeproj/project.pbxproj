@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC45CEC16EF608A00605C8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC45CEB16EF608A00605C8E /* UIKit.framework */; };
+		0BC45CEE16EF608A00605C8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC45CED16EF608A00605C8E /* Foundation.framework */; };
+		0BC45CF016EF608A00605C8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC45CEF16EF608A00605C8E /* CoreGraphics.framework */; };
+		0BC45CF616EF608A00605C8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BC45CF416EF608A00605C8E /* InfoPlist.strings */; };
+		0BC45CF816EF608A00605C8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC45CF716EF608A00605C8E /* main.m */; };
+		0BC45CFC16EF608A00605C8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC45CFB16EF608A00605C8E /* AppDelegate.m */; };
+		0BC45CFE16EF608A00605C8E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC45CFD16EF608A00605C8E /* Default.png */; };
+		0BC45D0016EF608A00605C8E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC45CFF16EF608A00605C8E /* Default@2x.png */; };
+		0BC45D0216EF608A00605C8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC45D0116EF608A00605C8E /* Default-568h@2x.png */; };
+		0BC45D0516EF608A00605C8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC45D0416EF608A00605C8E /* ViewController.m */; };
+		0BC45D0816EF608A00605C8E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC45D0616EF608A00605C8E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BC45CE816EF608A00605C8E /* kuaican.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuaican.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC45CEB16EF608A00605C8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BC45CED16EF608A00605C8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BC45CEF16EF608A00605C8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BC45CF316EF608A00605C8E /* kuaican-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kuaican-Info.plist"; sourceTree = "<group>"; };
+		0BC45CF516EF608A00605C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BC45CF716EF608A00605C8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BC45CF916EF608A00605C8E /* kuaican-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuaican-Prefix.pch"; sourceTree = "<group>"; };
+		0BC45CFA16EF608A00605C8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BC45CFB16EF608A00605C8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BC45CFD16EF608A00605C8E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0BC45CFF16EF608A00605C8E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0BC45D0116EF608A00605C8E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0BC45D0316EF608A00605C8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BC45D0416EF608A00605C8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BC45D0716EF608A00605C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC45CE516EF608A00605C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC45CEC16EF608A00605C8E /* UIKit.framework in Frameworks */,
+				0BC45CEE16EF608A00605C8E /* Foundation.framework in Frameworks */,
+				0BC45CF016EF608A00605C8E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC45CDF16EF608A00605C8E = {
+			isa = PBXGroup;
+			children = (
+				0BC45CF116EF608A00605C8E /* kuaican */,
+				0BC45CEA16EF608A00605C8E /* Frameworks */,
+				0BC45CE916EF608A00605C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BC45CE916EF608A00605C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BC45CE816EF608A00605C8E /* kuaican.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BC45CEA16EF608A00605C8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BC45CEB16EF608A00605C8E /* UIKit.framework */,
+				0BC45CED16EF608A00605C8E /* Foundation.framework */,
+				0BC45CEF16EF608A00605C8E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BC45CF116EF608A00605C8E /* kuaican */ = {
+			isa = PBXGroup;
+			children = (
+				0BC45CFA16EF608A00605C8E /* AppDelegate.h */,
+				0BC45CFB16EF608A00605C8E /* AppDelegate.m */,
+				0BC45D0316EF608A00605C8E /* ViewController.h */,
+				0BC45D0416EF608A00605C8E /* ViewController.m */,
+				0BC45D0616EF608A00605C8E /* ViewController.xib */,
+				0BC45CF216EF608A00605C8E /* Supporting Files */,
+			);
+			path = kuaican;
+			sourceTree = "<group>";
+		};
+		0BC45CF216EF608A00605C8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC45CF316EF608A00605C8E /* kuaican-Info.plist */,
+				0BC45CF416EF608A00605C8E /* InfoPlist.strings */,
+				0BC45CF716EF608A00605C8E /* main.m */,
+				0BC45CF916EF608A00605C8E /* kuaican-Prefix.pch */,
+				0BC45CFD16EF608A00605C8E /* Default.png */,
+				0BC45CFF16EF608A00605C8E /* Default@2x.png */,
+				0BC45D0116EF608A00605C8E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC45CE716EF608A00605C8E /* kuaican */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC45D0B16EF608A00605C8E /* Build configuration list for PBXNativeTarget "kuaican" */;
+			buildPhases = (
+				0BC45CE416EF608A00605C8E /* Sources */,
+				0BC45CE516EF608A00605C8E /* Frameworks */,
+				0BC45CE616EF608A00605C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kuaican;
+			productName = kuaican;
+			productReference = 0BC45CE816EF608A00605C8E /* kuaican.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BC45CE016EF608A00605C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "林成坚";
+			};
+			buildConfigurationList = 0BC45CE316EF608A00605C8E /* Build configuration list for PBXProject "kuaican" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BC45CDF16EF608A00605C8E;
+			productRefGroup = 0BC45CE916EF608A00605C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC45CE716EF608A00605C8E /* kuaican */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC45CE616EF608A00605C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC45CF616EF608A00605C8E /* InfoPlist.strings in Resources */,
+				0BC45CFE16EF608A00605C8E /* Default.png in Resources */,
+				0BC45D0016EF608A00605C8E /* Default@2x.png in Resources */,
+				0BC45D0216EF608A00605C8E /* Default-568h@2x.png in Resources */,
+				0BC45D0816EF608A00605C8E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC45CE416EF608A00605C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC45CF816EF608A00605C8E /* main.m in Sources */,
+				0BC45CFC16EF608A00605C8E /* AppDelegate.m in Sources */,
+				0BC45D0516EF608A00605C8E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BC45CF416EF608A00605C8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC45CF516EF608A00605C8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BC45D0616EF608A00605C8E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC45D0716EF608A00605C8E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BC45D0916EF608A00605C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BC45D0A16EF608A00605C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BC45D0C16EF608A00605C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaican/kuaican-Prefix.pch";
+				INFOPLIST_FILE = "kuaican/kuaican-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BC45D0D16EF608A00605C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaican/kuaican-Prefix.pch";
+				INFOPLIST_FILE = "kuaican/kuaican-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC45CE316EF608A00605C8E /* Build configuration list for PBXProject "kuaican" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC45D0916EF608A00605C8E /* Debug */,
+				0BC45D0A16EF608A00605C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC45D0B16EF608A00605C8E /* Build configuration list for PBXNativeTarget "kuaican" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC45D0C16EF608A00605C8E /* Debug */,
+				0BC45D0D16EF608A00605C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BC45CE016EF608A00605C8E /* Project object */;
+}
