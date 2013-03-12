@@ -18,6 +18,7 @@
 		0BC45D0216EF608A00605C8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC45D0116EF608A00605C8E /* Default-568h@2x.png */; };
 		0BC45D0516EF608A00605C8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC45D0416EF608A00605C8E /* ViewController.m */; };
 		0BC45D0816EF608A00605C8E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC45D0616EF608A00605C8E /* ViewController.xib */; };
+		0BC45D1116EF633900605C8E /* EntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC45D1016EF633900605C8E /* EntityBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		0BC45D0316EF608A00605C8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0BC45D0416EF608A00605C8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0BC45D0716EF608A00605C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0BC45D0F16EF633900605C8E /* EntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityBase.h; sourceTree = "<group>"; };
+		0BC45D1016EF633900605C8E /* EntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		0BC45CF116EF608A00605C8E /* kuaican */ = {
 			isa = PBXGroup;
 			children = (
+				0BC45D0E16EF631800605C8E /* Entity */,
 				0BC45CFA16EF608A00605C8E /* AppDelegate.h */,
 				0BC45CFB16EF608A00605C8E /* AppDelegate.m */,
 				0BC45D0316EF608A00605C8E /* ViewController.h */,
@@ -105,6 +109,15 @@
 				0BC45D0116EF608A00605C8E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BC45D0E16EF631800605C8E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0BC45D0F16EF633900605C8E /* EntityBase.h */,
+				0BC45D1016EF633900605C8E /* EntityBase.m */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,7 @@
 				0BC45CF816EF608A00605C8E /* main.m in Sources */,
 				0BC45CFC16EF608A00605C8E /* AppDelegate.m in Sources */,
 				0BC45D0516EF608A00605C8E /* ViewController.m in Sources */,
+				0BC45D1116EF633900605C8E /* EntityBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
